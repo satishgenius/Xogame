@@ -10,7 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.airbnb.lottie.LottieAnimationView;
 
 public class splashscreen extends AppCompatActivity {
-    TextView xogame;
+    TextView xogame  ;
     LottieAnimationView lottieAnimationView;
 
     @Override
