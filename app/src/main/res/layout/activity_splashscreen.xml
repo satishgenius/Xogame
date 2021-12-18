@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context="com.gaming.Xogame.splashscreen">
+
+
+  <com.airbnb.lottie.LottieAnimationView
+      android:id="@+id/lottie"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerInParent="true"
+      app:lottie_autoPlay="true"
+      app:lottie_rawRes="@raw/splash">
+
+
+  </com.airbnb.lottie.LottieAnimationView>
+
+
+  <TextView
+      android:id="@+id/xogame"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      android:layout_centerInParent="true"
+      android:layout_marginBottom="90sp"
+      android:fontFamily="@font/amaranth_bold_italic"
+      android:gravity="center"
+      android:text="XO game"
+      android:textColor="@color/black"
+      android:textSize="30sp"
+      android:textStyle="bold"></TextView>
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      android:layout_centerInParent="true"
+      android:layout_marginTop="10sp"
+      android:layout_marginBottom="60dp"
+      android:fontFamily="@font/amita_bold"
+      android:text="play with friends"
+      android:textColor="#911155"
+      android:textSize="15sp"
+      android:textStyle="bold" />
+
+
+</RelativeLayout>
